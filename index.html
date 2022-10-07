@@ -387,6 +387,20 @@
           </li>
         </ul>
       </div>
+      <div class="footer-mailing">
+        <p class="footer-form-paragraf">Підпишіться на розсилку</p>
+        <form class="footer-form">
+          <label>
+            <input class="footer-form-input" type="email" name="email" placeholder="E-mail" />
+          </label>
+          <button type="submit" class="footer-form-btn">
+            Підписатися
+            <svg class="footer-form-icon" width="24" height="24">
+              <use xlink:href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
   </footer>
   <div class="backdrop is-hidden" data-modal>
@@ -396,6 +410,40 @@
           <use xlink:href="./images/icons.svg#icon-vector"></use>
         </svg>
       </button>
+      <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+      <form class="modal-form">
+        <div class="rt"></div>
+        <label class="modal-label">Ім'я
+          <input class="modal-input" type="text" name="username" />
+          <svg class="modal-icon">
+            <use xlink:href="./images/icons.svg#icon-person"></use>
+          </svg>
+        </label>
+        <label class="modal-label">Телефон
+          <input class="modal-input" type="tel" name="phone_number" />
+          <svg class="modal-icon">
+            <use xlink:href="./images/icons.svg#icon-phone"></use>
+          </svg>
+        </label>
+        <label class="modal-label">Пошта
+          <input class="modal-input" type="email" name="email" />
+          <svg class="modal-icon">
+            <use xlink:href="./images/icons.svg#icon-email"></use>
+          </svg>
+        </label>
+        <label class="modal-label">Коментар
+          <textarea class="modal-textarea" name="comment" placeholder="Введіть текст"></textarea>
+        </label>
+        <label class="modal-checkbox">
+          <input class="checkboxx" type="checkbox" />
+          <svg class="modal-checkbox-icon">
+            <use xlink:href="./images/icons.svg#icon-cheked"></use>
+          </svg>
+          Погоджуюся з розсилкою та приймаю
+          <a class="modal-checkbox-contract" href="#">Умови договору</a>
+        </label>
+        <button type="submit" class="modal-button">Відправити</button>
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
